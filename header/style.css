@@ -1,0 +1,199 @@
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+ 
+
+.header{
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    font-family: "Montserrat";
+
+    font-optical-sizing: auto;
+
+    font-style: normal;
+
+}
+
+ 
+
+.menu{
+
+background: #FFFFFF;
+
+box-shadow: 0px 4px 7px rgba(129, 129, 129, 0.25);
+
+ 
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: space-between;
+
+}
+
+ 
+
+.menu__logo{
+
+font-weight: 700;
+
+font-size: 30px;
+
+line-height: 29px;
+
+display: flex;
+
+align-items: center;
+
+letter-spacing: -0.015em;
+
+color: #05A88D;
+
+text-decoration: none;
+
+ 
+
+display: flex;
+
+justify-content: center;
+
+align-content: center;
+
+}
+
+ 
+
+.menu__ul{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+}
+
+.menu__li{
+
+    margin: 40px;
+
+    list-style: none;
+
+    font-weight: 300;
+
+    font-size: 20px;
+
+    line-height: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    letter-spacing: -0.015em;
+
+    text-transform: capitalize;
+
+}
+
+.menu__link{
+
+    text-decoration: none;
+
+    display: flex;
+
+    align-items: center;
+
+    letter-spacing: -0.015em;
+
+    text-transform: capitalize;
+
+    color: black;
+
+}
+
+ 
+
+.buttons{
+
+    margin: 27px 0px;
+
+    margin-right: 115.5px;
+
+ 
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+.menu__signup{
+
+    font-weight: 300;
+
+    font-size: 20px;
+
+    line-height: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    letter-spacing: -0.015em;
+
+    color: #05A88D;
+
+    width: 105px;
+
+    height: 45px;
+
+    box-sizing: border-box;
+
+    border-radius: 3px;
+
+    border: 1px solid #05A88D;
+
+    background-color: #FFFFFF;
+
+}
+
+.menu__login{
+
+    font-weight: 300;
+
+    font-size: 20px;
+
+    line-height: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    letter-spacing: -0.015em;
+
+    color: #05A88D;
+
+    width: 45px;
+
+    height: 20px;
+
+    border: none;
+
+    background-color: #FFFFFF;
+
+    margin-left: 115.5px;
+
+}
